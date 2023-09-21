@@ -1,11 +1,22 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Join from './Join';
+import About from './About';
+import Library from './Library';
+
 
 function App() {
   return (
-    <div className="App">
-      <center>Something Amazing is going to build ...</center>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/join" element={<Join/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/library" element={<Library/>} />
+      </Routes>
+    </Router>
   );
 }
 
