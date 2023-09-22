@@ -9,3 +9,11 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+
+/*
+    background-image: url("../public/Assets/bg-optimized.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+*/

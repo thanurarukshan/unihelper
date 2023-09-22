@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../public/Fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(../public/Fonts/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: url(../public/Fonts/Montserrat-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../public/Fonts/Montserrat-SemiBold.ttf);
+}
+
+* {
+    font-family: "Montserrat-Bold";
+    max-width: 100vw;
+}
+
+body {
+    margin: 0;
+}

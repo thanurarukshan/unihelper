@@ -1,0 +1,29 @@
+.headerbarMain {
+    width: 100vw;
+    height: 70px;
+    background-color: #3a5eca;
+    position: absolute;
+    color: white ;
+    z-index: 100;
+}
+
+.headerbarMain-dir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.headerbarMain-dir a {
+    all: unset;
+    padding: 20px ;
+    user-select: none;
+    cursor: default;
+}
+
+.headerbarMain-dir a:hover {
+    color: transparent;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 9%, rgba(0,255,255,1) 60%, rgba(0,255,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: 0.8s;
+}

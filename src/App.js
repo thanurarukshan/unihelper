@@ -5,11 +5,13 @@ import Home from './Home';
 import Join from './Join';
 import About from './About';
 import Library from './Library';
+import Headerbar from './Headerbar';
 
 
 function App() {
   return (
     <Router>
+      <Headerbar/>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/join" element={<Join/>} />
