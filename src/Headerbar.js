@@ -8,7 +8,7 @@ function Headerbar() {
         <div className='headerbarMain-dir'>
             <Link to="/"><span>Home</span> </Link>
             <Link to="/library"><span>Library</span> </Link>
-            <Link to="/join"><span>Join_the_Community</span> </Link>
+            <Link to="/join"><span>Join_With_the_Community</span> </Link>
             <Link to="/about"><span>About_Us</span> </Link>
         </div>
     </div>
