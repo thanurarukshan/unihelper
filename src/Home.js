@@ -5,7 +5,13 @@ function Home() {
   return (
     <div>
       <div className='blueDiv'>
-        <img src='../Assets/Asset01.svg' className='bluediv-img' />
+        <div className='blueDiv-content'>
+          <img src='../Assets/Asset01.svg' className='bluediv-img' />
+          <div className='bluediv-wording'>
+            <span id='span01'>From the <span id='inner-span'>Community</span></span>
+            <span id='span02'>To the <span id='inner-span'>Community</span></span>
+          </div>
+        </div>
       </div>
       <div className='whiteDev'>
         <span className='whiteDiv-span'>Need help with your <span className='whiteDiv-span-inside'>Assignments ?</span></span>

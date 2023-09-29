@@ -18,6 +18,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/library" element={<Library/>} />
       </Routes>
+      <span className='footer'>Copyright © 2023 | All Rights Reserved</span>
     </Router>
   );
 }

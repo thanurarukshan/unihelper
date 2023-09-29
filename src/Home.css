@@ -24,12 +24,20 @@
   animation: slideIn 1s ease-in-out;
 }
 
+.blueDiv-content {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .whiteDev {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  max-height: 33.33vh;
   margin-top: 10px;
   animation: appear 1s ease-in-out;
 }
@@ -62,6 +70,24 @@
 }
 
 .bluediv-img {
-    max-height:95vh;
-    margin-left: 20px;
+    max-height:45vh;
+    margin: 20px;
+}
+
+.bluediv-wording {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: white;
+    font-size: 55px;
+}
+
+.bluediv-wording span {
+    margin: 5px;
+    font-family: "Montserrat-Regular";
+}
+
+#inner-span {
+    font-family: "Montserrat-Bold";
+    color: rgba(0,255,255,1);
 }
