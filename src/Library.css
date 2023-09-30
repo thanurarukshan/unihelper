@@ -1,0 +1,12 @@
+.library-main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.library-img {
+    max-height: 55vh;
+    animation: appear 1s ease-in-out;
+}

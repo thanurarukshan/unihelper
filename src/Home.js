@@ -6,7 +6,7 @@ function Home() {
     <div>
       <div className='blueDiv'>
         <div className='blueDiv-content'>
-          <img src='../Assets/Asset01.svg' className='bluediv-img' />
+          <img src='../Assets/Asset01.svg' className='bluediv-img' alt='' />
           <div className='bluediv-wording'>
             <span id='span01'>From the <span id='inner-span'>Community</span></span>
             <span id='span02'>To the <span id='inner-span'>Community</span></span>

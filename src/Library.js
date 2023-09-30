@@ -3,7 +3,9 @@ import "./Library.css";
 
 function Library() {
   return (
-    <div>Library</div>
+    <div className='library-main'>
+      <img src='../Assets/Asset02.svg' className='library-img' alt=''/>
+    </div>
   )
 }
 
