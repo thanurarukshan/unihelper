@@ -10,6 +10,7 @@ function Home() {
           <div className='bluediv-wording'>
             <span id='span01'>From the <span id='inner-span'>Community</span></span>
             <span id='span02'>To the <span id='inner-span'>Community</span></span>
+            <span id='span03'>Elevate Your Education. A Community of<br/>Learning, Sharing, and Thriving.</span>
           </div>
         </div>
       </div>
@@ -17,6 +18,7 @@ function Home() {
         <span className='whiteDiv-span'>Need help with your <span className='whiteDiv-span-inside'>Assignments ?</span></span>
         <button className='whiteDiv-btn'> Click Here</button>
       </div>
+      <span className='fields'>Engineering , IT , Computer Science , Research , Projects , Final Year Projects , Bussiness , Commerce</span>
     </div>
   )
 }

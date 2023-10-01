@@ -8,3 +8,11 @@
     font-family: "Montserrat-Italic";
     font-weight: 1000;
 }
+
+@media (orientation: portrait) {
+    .footer {
+        margin: auto;
+        bottom: 20px;
+        font-size: 3vw;
+    }
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Headerbar.css";
 import { Link } from 'react-router-dom';
-import {FaBars, FaTimes} from 'react-icons/fa';
+import {FaBars} from 'react-icons/fa';
 import { useRef } from 'react';
 
 function Headerbar() {

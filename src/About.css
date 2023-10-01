@@ -40,3 +40,10 @@
 .aboutusMain-content-title {
     font-size: 30px;
 }
+
+@media (orientation: portrait) {
+    .aboutusMain-content-content {
+        max-width: 80vw;
+        font-size: 3.5vw;
+    }
+}

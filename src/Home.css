@@ -91,3 +91,64 @@
     font-family: "Montserrat-Bold";
     color: rgba(0,255,255,1);
 }
+
+#span03 {
+  font-size: 20px;
+  font-family: "Montserrat-Italic";
+  font-weight: 800;
+}
+
+.fields {
+  font-family: "Montserrat-Italic";
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+@media (orientation: portrait) {
+  body {
+    max-width: 100%;
+    max-height: 100vh;
+  }
+
+  .blueDiv-content {
+    flex-direction: column;
+  }
+  
+  .bluediv-img {
+    width: 70vw;
+  }
+
+  #span01 {
+    font-size: 6.5vw;
+  }
+
+  #span02 {
+    font-size: 6.5vw;
+  }
+
+  #span03 {
+    font-size: 4vw;
+    font-weight: 300;
+  }
+
+  .whiteDiv-span {
+    font-size: 5vw;
+  }
+
+  .whiteDiv-btn {
+    font-size: 3.3vw;
+    width: 30vw;
+  }
+
+  .whiteDev {
+    margin: auto;
+    max-width: 90vw;
+  }
+  
+  .fields {
+    max-width: 80vw;
+    margin: auto;
+    font-size: 12px;
+  }
+}
