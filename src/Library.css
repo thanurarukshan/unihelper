@@ -11,19 +11,21 @@
 
 .library-img {
     max-height: 55vh;
+    max-width: 30vw;
+    margin-bottom: 3vh;
     
 }
 
 .library-main-text {
     margin-top: -50px;
     font-family: "Montserrat-Regular";
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .library-main-text02 {
     font-family: "Montserrat-Italic";
     font-weight: 800;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 @media (orientation: portrait) {

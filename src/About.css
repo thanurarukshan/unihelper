@@ -29,11 +29,12 @@
     max-width: 600px;
     text-align: justify;
     margin-top: 20px;
+    font-size: 2.5vh;
 }
 
 .aboutusMain-content-content p {
     font-family: "Montserrat-Light";
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 
@@ -43,7 +44,8 @@
 
 @media (orientation: portrait) {
     .aboutusMain-content-content {
+        max-height: 100vh;
         max-width: 80vw;
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 }
